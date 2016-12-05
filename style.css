@@ -1,0 +1,42 @@
+body {
+	background-color: blue;
+
+}
+
+/*change the color of the link with query*/
+
+.logo {
+	border: 5px grey;
+	padding: 5px;
+	box-shadow: 1px 1px 1px 2px;
+}
+
+table {
+	border: green;
+}
+
+body {
+	margin: 3cm;
+}
+
+#main {
+	line-height: 20px;
+	margin-top: 5cm;
+	text-align: center;
+}
+
+a {
+	background-color: grey;
+	font-family: Arial;
+}
+
+a:visited {
+	color: green;
+	background-color: yellow;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+   	background-color: red;
+  }
+}
